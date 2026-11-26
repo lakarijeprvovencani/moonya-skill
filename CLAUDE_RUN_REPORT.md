@@ -230,3 +230,42 @@ without `confirm`). Do the whole dry run on free calls before spending a single 
   wider app.
 
 Moonya AI: https://moonya.ai/en
+
+---
+
+## Phase 2: Promotion (26 November 2026)
+
+**Task:** `PROMO_TASK.md` — make repo public and submit to awesome lists.
+
+### Completed
+
+1. **Repo description and topics set via `gh repo edit`:**
+   - Description: "Agent skills that put a brand's social media on autopilot — plan, design, schedule and publish to 9 networks from Claude Code, ChatGPT, Cursor and any MCP-capable agent. Powered by Moonya AI."
+   - Topics: `claude-skills`, `mcp`, `ai-agents`, `social-media-automation`, `instagram`, `tiktok`, `claude-code`
+
+2. **Repo made PUBLIC:**
+   - URL: <https://github.com/lakarijeprvovencani/moonya-skill>
+
+3. **PROMOTION.md created:** permanent playbook for catalog submissions, manual TODOs, and channel tracking.
+
+4. **Awesome-list submission prepared:**
+   - Forked `ComposioHQ/awesome-claude-skills`
+   - Added entry to Business & Marketing section
+   - Branch pushed: `lakarijeprvovencani/awesome-claude-skills:add-moonya-skill`
+   - **PR could not be opened automatically** (GitHub token scope missing `repo` or `public_repo` for cross-repo PRs)
+   - Manual step required: open PR from the branch
+
+### Manual TODOs logged in PROMOTION.md
+
+- Open PR to `ComposioHQ/awesome-claude-skills` from prepared branch
+- Submit to `hesreallyhim/awesome-claude-code` via issue form
+- Submit to `punkpeye/awesome-mcp-servers` (requires glama.ai backlink)
+- Submit to `travisvn/awesome-claude-skills` once repo has 10+ stars
+- Reddit, X, Product Hunt, Indie Hackers, Dev.to, Hacker News
+
+### Constraints honoured
+
+- No GitHub Actions or paid GitHub features
+- No spam (one entry per list, format followed exactly)
+- vajbpilot untouched
+- No secrets in any file
